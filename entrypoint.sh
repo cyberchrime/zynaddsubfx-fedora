@@ -3,7 +3,7 @@
 set -e
 set -u
 
-git clone https://github.com/cyberchrime/zyn-fusion-build.git
+git clone https://github.com/zynaddsubfx/zyn-fusion-build zyn-fusion-build
 cd zyn-fusion-build
 
 make -f Makefile.linux.mk install_deps
