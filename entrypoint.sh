@@ -8,3 +8,5 @@ cd zyn-fusion-build
 
 make MODE=release -f Makefile.linux.mk install_deps
 PARALLEL=1 make -f Makefile.linux.mk all
+
+cp build/*.bz2 /output/
